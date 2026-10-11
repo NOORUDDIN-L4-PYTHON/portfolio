@@ -1,7 +1,7 @@
 const CONFIG = {
-  name: "YOUR NAME",
-  email: "you@example.com",
-  linkedin: "https://www.linkedin.com/in/your-profile",
+  name: "Nooruddin Muhammed Ghazanfar",
+  email: "nmghazanfar007@gmail.com",
+  linkedin: "linkedin.com/in/nmghazanfar",
   whatsapp: "", // digits only with country code, e.g. 9715XXXXXXXX (leave empty to hide)
 };
 
