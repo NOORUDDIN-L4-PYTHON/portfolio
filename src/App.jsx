@@ -22,8 +22,10 @@ const services = [
 
 const projects = [
   {
-    title: "Sample project 1: Local business website",
-    desc: "Problem, solution and result. Replace this once the project is built.",
+    title: "Palm Grove Dental (demo project)",
+    desc: "A concept website for a dental clinic. Problem: patients want to book quickly without phone calls. Solution: a fast, mobile-friendly site with a short booking form that sends the request straight to WhatsApp. Built with React.",
+    link: "https://clinic-demo-lime.vercel.app/",
+    image: "/clinic-demo.png",
   },
   {
     title: "Sample project 2: AI chatbot for enquiries",
@@ -35,7 +37,7 @@ export default function App() {
   return (
     <div className="page">
       <header className="hero">
-               <p className="eyebrow">Web Developer & AI Automation</p>
+        <p className="eyebrow">Web Developer & AI Automation</p>
         <h1>{CONFIG.name}</h1>
         <p className="lead">
           I build fast, modern websites with AI chatbots and automation for
@@ -61,8 +63,12 @@ export default function App() {
         <div className="grid">
           {projects.map((p) => (
             <div className="card" key={p.title}>
+              {p.image && <img className="shot" src={p.image} alt={p.title} />}
               <h3>{p.title}</h3>
               <p>{p.desc}</p>
+              {p.link && (
+                <a className="btn" href={p.link} target="_blank" rel="noreferrer">View live demo</a>
+              )}
             </div>
           ))}
         </div>

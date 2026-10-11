@@ -10,7 +10,7 @@ body {
 .page { max-width: 960px; margin: 0 auto; padding: 24px; }
 .hero { padding: 80px 0 56px; }
 .eyebrow { color: #8b93ff; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.85rem; margin: 0; }
-h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); margin: 8px 0 16px; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.1; margin: 8px 0 16px; }
 .lead { font-size: 1.2rem; max-width: 640px; color: #b9bfd0; }
 section { padding: 32px 0; border-top: 1px solid #22263a; }
 h2 { margin: 0 0 20px; }
@@ -22,4 +22,6 @@ h2 { margin: 0 0 20px; }
 .links { display: flex; gap: 12px; flex-wrap: wrap; }
 .btn { display: inline-block; background: #6c63ff; color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; }
 .btn.alt { background: transparent; border: 1px solid #3a3f58; }
+.shot { width: 100%; border-radius: 8px; border: 1px solid #22263a; margin-bottom: 12px; }
+.card .btn { margin-top: 16px; }
 footer { padding: 32px 0 16px; color: #6b7188; text-align: center; font-size: 0.9rem; }
