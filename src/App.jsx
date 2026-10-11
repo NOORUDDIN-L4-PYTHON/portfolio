@@ -27,9 +27,11 @@ const projects = [
     link: "https://clinic-demo-lime.vercel.app/",
     image: "/clinic-demo.png",
   },
-  {
-    title: "Sample project 2: AI chatbot for enquiries",
-    desc: "Problem, solution and result. Replace this once the project is built.",
+    {
+    title: "Instant-answer chat assistant (demo)",
+    desc: "Added to the Palm Grove Dental demo site. Problem: clinics get the same questions over and over (hours, services, location, booking). Solution: a chat assistant that answers instantly and guides visitors to the booking form. Next step for real clients: upgrade to an AI-powered assistant.",
+    link: "https://clinic-demo-lime.vercel.app/",
+    image: "/clinic-chat.png",
   },
 ];
 
